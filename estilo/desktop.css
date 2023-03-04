@@ -4,12 +4,28 @@
     
     
     body{
+    width: 100vw;
+    height: 100vh;
     background-color: var(--body-bg-color);
     background-image: url(../assets/read_news.jpg);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
+    }
+
+    header{
+        width: 50vw;
+        height: 40vh;
+    }
+
+    main{
+        position: relative;
+        top: 0;
+        z-index: 0;
+        width: 50vw;
+        height: 60vh;
+        background-color: var(--body-bg-color);
     }
     
 div{
@@ -19,27 +35,36 @@ div{
     
 }
 
+section{
+    height: 100%;
+}
+
 .logo{
     margin: 0px;
-    height: 350px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50vh;
 }
 
 #logoimg{
     width: 45vw;
-    margin: 10px 20px;
+    margin: 75px 20px;
 }
 
 
 .content{
+    position: relative;
+    top: 0;
+    left: 0;
     margin: 0px;
     height: 300px;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 .formDiv{
     margin: 0px;
-    height: 100vh;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 #iemail{
@@ -51,5 +76,7 @@ button{
     left: 60vw;
     top: -70px;
 }
+
+
 
 }
