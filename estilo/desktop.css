@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+    
+    
+    body{
+    background-color: var(--body-bg-color);
+    background-image: url(../assets/read_news.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+div{
+    width: 50vw;
+    background-color: var(--body-bg-color);
+    
+    
+}
+
+.logo{
+    margin: 0px;
+    height: 350px;
+}
+
+#logoimg{
+    width: 600px;
+    margin: 10px 20px;
+}
+
+
+.content{
+    margin: 0px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+.formDiv{
+    margin: 0px;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+#iemail{
+    width: 60vw;
+}
+
+button{
+    position: relative;
+    left: 60vw;
+    top: -70px;
+}
+
+}
