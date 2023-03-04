@@ -10,8 +10,18 @@
     .logo, .content, .formDiv{
         margin-left: 20px;
     }
+
+    #bar{
+        height: 40px;
+    }
     
     #iemail{
         width: 60vw;
+        height: 40px;
+    }
+
+    button{
+        width: 40px;
+        height: 40px;
     }
 }
