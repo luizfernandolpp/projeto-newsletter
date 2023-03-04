@@ -2,8 +2,13 @@
 
     body{
         width: 95vw;
-        height: 94vh;
+        height: 90vh;
         background-color: var(--body-bg-color);
+    }
+
+
+    .logo, .content, .formDiv{
+        margin-left: 40px;
     }
     
     #iemail{
