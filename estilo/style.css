@@ -65,6 +65,7 @@ p{
 }
 form{
     margin: auto;
+    height: 100px;
 }
 
 label{
