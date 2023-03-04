@@ -84,6 +84,14 @@ button{
     top: -60px;
 }
 
+a{
+    position: relative;
+    top: 14px;
+}
 
+#seta{
+    position: relative;
+    top: 22px;
+}
 
 }
