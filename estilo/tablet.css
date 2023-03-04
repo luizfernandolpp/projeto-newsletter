@@ -1,8 +1,8 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
-        width: 100vw;
-        height: 100vh;
+        width: 95vw;
+        height: 50vh;
         background-color: var(--body-bg-color);
     }
     
