@@ -23,9 +23,9 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
+html, body{
+    width: 95vw;
+    height: 50vh;
     background-color: var(--body-bg-color);
     
 }
@@ -35,7 +35,7 @@ body{
 }
 
 #logoimg{
-    width: 80vw;
+    width: 85vw;
     height: 200px;
     
     
@@ -47,14 +47,14 @@ body{
 
 h1{
     font-family: var(--work-sans);
-    font-size: 2em;
+    font-size: 1.5em;
     color:var(--title-color);
     padding: 10px;
 }
 
 h2{
     font-family: var(--league-spartan);
-    font-size: 1.4em;
+    font-size: 1em;
     color: var(--text-color);
     padding: 10px;
 }
