@@ -5,13 +5,11 @@
     
     html, body{
     width: 100vw;
-    height: 100vh;
     background-color: var(--body-bg-color);
     background-image: url(../assets/read_news.jpg);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
-    background-attachment: fixed;
     }
 
     header{
@@ -25,6 +23,7 @@
         z-index: 0;
         width: 50vw;
         height: 60vh;
+       
         background-color: var(--body-bg-color);
     }
     
